@@ -1,0 +1,1493 @@
+[
+	{
+		"text": "# oncologia clínica - mama e gineco # hd : cdi de mama e em 2020 ct2n0m0 - paciente não quis operar re pos ( 100 % ) rp pos ( 95 % ) her2 negativo ki6740 % cec de colo uterino em 2016 ct4a cn1 m1 ( lfn retroperitoneal ) ivb -até mai/16 : rt + qt até jun/16 : hdr -seguimento com equipe da gineco # comorbidades : cdis mama e desde 2017 ; recusou cirurgia - 09/20 : biopsia do nódulo mama e ap : cdi , g3 , re 100 % , rp 95 % , ki6740 % , her2 neg usg mama ( 08/2020 ) : nódulo mama e , irregular de margens anguladas , medindo 1,4 x 1,3 x 1,2 cm ( media 0,7 x 0,6 x 0,5 cm em 10/2018 ) . linfonodo axilar á esquerda , com aumento de espessura cortical . mmg ( 08/2020 ) : me com nódulo em [ unk ] 11 - 20 mm espiculado e pouco definido . birads 6 ; em md birads 2 em uso : losartana / anlodipino / sinvastatina / cálcio + vitd comorb : has , dlp , cardiopatia paciente em bom estado geral , sem queixas no momento . # densitometria óssea ( 10/2020 ) : osteopenia . coluna lombar ( t - score ) : -0,3 colo femoral ( t - score ) : -1,2 fêmur total ( t - score ) : -0,7 ao exame : beg , lote , ps 0 acv : rcr2 t , bnf ar : ara , mv+ , eupneica ab : normotenso , indolor , ausência de massas e visceromegalias mama e : nódulo de 1,0 x 1,0 cm em [ unk ] , axilas livres . # cd : mantenho anastrozol / retorno em 3 meses .",
+		"clinical_entities": [
+			{
+				"entity": "cdi",
+				"entity_tokens": [
+					"cdi"
+				],
+				"label": "DISEASE",
+				"start": 43,
+				"end": 46,
+				"assertion": "HISTORICO",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "mama e",
+				"entity_tokens": [
+					"mama",
+					"e"
+				],
+				"label": "BODY_PART",
+				"start": 50,
+				"end": 56,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "2020",
+				"entity_tokens": [
+					"2020"
+				],
+				"label": "TEMPORAL_CONCEPT",
+				"start": 60,
+				"end": 64,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "ct2n0m0",
+				"entity_tokens": [
+					"ct2n0m0"
+				],
+				"label": "STAGE",
+				"start": 65,
+				"end": 72,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "cec",
+				"entity_tokens": [
+					"cec"
+				],
+				"label": "PROCEDURE",
+				"start": 156,
+				"end": 159,
+				"assertion": "HISTORICO",
+				"adverse_event": "",
+				"el": {
+					"term_text": "C444 - neoplasia maligna da pele do couro cabeludo e do pescoço",
+					"terminology": "ICD10",
+					"term_code": "C444",
+					"term_desc": "neoplasia maligna da pele do couro cabeludo e do pescoço"
+				}
+			},
+			{
+				"entity": "colo uterino",
+				"entity_tokens": [
+					"colo",
+					"uterino"
+				],
+				"label": "BODY_PART",
+				"start": 163,
+				"end": 175,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "2016",
+				"entity_tokens": [
+					"2016"
+				],
+				"label": "TEMPORAL_CONCEPT",
+				"start": 179,
+				"end": 183,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "rt",
+				"entity_tokens": [
+					"rt"
+				],
+				"label": "PROCEDURE",
+				"start": 238,
+				"end": 240,
+				"assertion": "HISTORICO",
+				"adverse_event": "",
+				"el": {
+					"term_text": "41203070 - radioterapia convencional de megavoltagem com acelerador linear com fótons e elétrons - por campo",
+					"terminology": "BR_TUSS",
+					"term_code": "41203070",
+					"term_desc": "radioterapia convencional de megavoltagem com acelerador linear com fótons e elétrons - por campo"
+				}
+			},
+			{
+				"entity": "qt",
+				"entity_tokens": [
+					"qt"
+				],
+				"label": "PROCEDURE",
+				"start": 243,
+				"end": 245,
+				"assertion": "HISTORICO",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "até jun/16",
+				"entity_tokens": [
+					"até",
+					"jun/16"
+				],
+				"label": "TEMPORAL_CONCEPT",
+				"start": 246,
+				"end": 256,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "mama",
+				"entity_tokens": [
+					"mama"
+				],
+				"label": "BODY_PART",
+				"start": 318,
+				"end": 322,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "desde 2017",
+				"entity_tokens": [
+					"desde",
+					"2017"
+				],
+				"label": "TEMPORAL_CONCEPT",
+				"start": 325,
+				"end": 335,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "cirurgia",
+				"entity_tokens": [
+					"cirurgia"
+				],
+				"label": "PROCEDURE",
+				"start": 346,
+				"end": 354,
+				"assertion": "AUSENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "09/20",
+				"entity_tokens": [
+					"09/20"
+				],
+				"label": "TEMPORAL_CONCEPT",
+				"start": 357,
+				"end": 362,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "biopsia",
+				"entity_tokens": [
+					"biopsia"
+				],
+				"label": "PROCEDURE",
+				"start": 365,
+				"end": 372,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "nódulo",
+				"entity_tokens": [
+					"nódulo"
+				],
+				"label": "SYMPTOM",
+				"start": 376,
+				"end": 382,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "mama",
+				"entity_tokens": [
+					"mama"
+				],
+				"label": "BODY_PART",
+				"start": 383,
+				"end": 387,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "cdi",
+				"entity_tokens": [
+					"cdi"
+				],
+				"label": "DISEASE",
+				"start": 395,
+				"end": 398,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "g3",
+				"entity_tokens": [
+					"g3"
+				],
+				"label": "STAGE",
+				"start": 401,
+				"end": 403,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "usg",
+				"entity_tokens": [
+					"usg"
+				],
+				"label": "PROCEDURE",
+				"start": 447,
+				"end": 450,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "40901114 - us - mamas",
+					"terminology": "BR_TUSS",
+					"term_code": "40901114",
+					"term_desc": "us - mamas"
+				}
+			},
+			{
+				"entity": "mama",
+				"entity_tokens": [
+					"mama"
+				],
+				"label": "BODY_PART",
+				"start": 451,
+				"end": 455,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "08/2020",
+				"entity_tokens": [
+					"08/2020"
+				],
+				"label": "TEMPORAL_CONCEPT",
+				"start": 458,
+				"end": 465,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "nódulo",
+				"entity_tokens": [
+					"nódulo"
+				],
+				"label": "SYMPTOM",
+				"start": 470,
+				"end": 476,
+				"assertion": "POSSIVEL",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "mama",
+				"entity_tokens": [
+					"mama"
+				],
+				"label": "BODY_PART",
+				"start": 477,
+				"end": 481,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "irregular",
+				"entity_tokens": [
+					"irregular"
+				],
+				"label": "MORPHOLOGY",
+				"start": 486,
+				"end": 495,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "margens anguladas",
+				"entity_tokens": [
+					"margens",
+					"anguladas"
+				],
+				"label": "MORPHOLOGY",
+				"start": 499,
+				"end": 516,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "1,4 x 1,3 x 1,2",
+				"entity_tokens": [
+					"1,4",
+					"x",
+					"1,3",
+					"x",
+					"1,2"
+				],
+				"label": "MORPHOLOGY",
+				"start": 527,
+				"end": 542,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "0,7 x 0,6 x 0,5",
+				"entity_tokens": [
+					"0,7",
+					"x",
+					"0,6",
+					"x",
+					"0,5"
+				],
+				"label": "MORPHOLOGY",
+				"start": 554,
+				"end": 569,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "10/2018",
+				"entity_tokens": [
+					"10/2018"
+				],
+				"label": "TEMPORAL_CONCEPT",
+				"start": 576,
+				"end": 583,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "linfonodo axilar á esquerda",
+				"entity_tokens": [
+					"linfonodo",
+					"axilar",
+					"á",
+					"esquerda"
+				],
+				"label": "BODY_PART",
+				"start": 588,
+				"end": 615,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "mmg",
+				"entity_tokens": [
+					"mmg"
+				],
+				"label": "PROCEDURE",
+				"start": 654,
+				"end": 657,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "40808033 - mamografia convencional bilateral",
+					"terminology": "BR_TUSS",
+					"term_code": "40808033",
+					"term_desc": "mamografia convencional bilateral"
+				}
+			},
+			{
+				"entity": "08/2020",
+				"entity_tokens": [
+					"08/2020"
+				],
+				"label": "TEMPORAL_CONCEPT",
+				"start": 660,
+				"end": 667,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "nódulo",
+				"entity_tokens": [
+					"nódulo"
+				],
+				"label": "SYMPTOM",
+				"start": 679,
+				"end": 685,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "11 - 20 mm",
+				"entity_tokens": [
+					"11",
+					"-",
+					"20",
+					"mm"
+				],
+				"label": "MORPHOLOGY",
+				"start": 697,
+				"end": 707,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "espiculado",
+				"entity_tokens": [
+					"espiculado"
+				],
+				"label": "MORPHOLOGY",
+				"start": 708,
+				"end": 718,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "birads",
+				"entity_tokens": [
+					"birads"
+				],
+				"label": "STAGE",
+				"start": 738,
+				"end": 744,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "birads",
+				"entity_tokens": [
+					"birads"
+				],
+				"label": "STAGE",
+				"start": 755,
+				"end": 761,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "losartana",
+				"entity_tokens": [
+					"losartana"
+				],
+				"label": "PHARM_SUBSTANCE",
+				"start": 773,
+				"end": 782,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "C09CA01 - losartana. dosagem: 50,0 unidade: mg adm: o",
+					"terminology": "ATC",
+					"term_code": "C09CA01",
+					"term_desc": "losartana. dosagem: 50,0 unidade: mg adm: o"
+				}
+			},
+			{
+				"entity": "anlodipino",
+				"entity_tokens": [
+					"anlodipino"
+				],
+				"label": "PHARM_SUBSTANCE",
+				"start": 785,
+				"end": 795,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "C08CA01 - amlodipina. dosagem: 5,0 unidade: mg adm: o",
+					"terminology": "ATC",
+					"term_code": "C08CA01",
+					"term_desc": "amlodipina. dosagem: 5,0 unidade: mg adm: o"
+				}
+			},
+			{
+				"entity": "sinvastatina",
+				"entity_tokens": [
+					"sinvastatina"
+				],
+				"label": "PHARM_SUBSTANCE",
+				"start": 798,
+				"end": 810,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "C10AA01 - sinvastatina. dosagem: 30,0 unidade: mg adm: o",
+					"terminology": "ATC",
+					"term_code": "C10AA01",
+					"term_desc": "sinvastatina. dosagem: 30,0 unidade: mg adm: o"
+				}
+			},
+			{
+				"entity": "cálcio + vitd",
+				"entity_tokens": [
+					"cálcio",
+					"+",
+					"vitd"
+				],
+				"label": "PHARM_SUBSTANCE",
+				"start": 813,
+				"end": 826,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "has",
+				"entity_tokens": [
+					"has"
+				],
+				"label": "DISEASE",
+				"start": 836,
+				"end": 839,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "I10 - hipertensão essencial (primária)",
+					"terminology": "ICD10",
+					"term_code": "I10",
+					"term_desc": "hipertensão essencial (primária)"
+				}
+			},
+			{
+				"entity": "dlp",
+				"entity_tokens": [
+					"dlp"
+				],
+				"label": "DISEASE",
+				"start": 842,
+				"end": 845,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "E785 - hiperlipidemia não especificada",
+					"terminology": "ICD10",
+					"term_code": "E785",
+					"term_desc": "hiperlipidemia não especificada"
+				}
+			},
+			{
+				"entity": "cardiopatia",
+				"entity_tokens": [
+					"cardiopatia"
+				],
+				"label": "DISEASE",
+				"start": 848,
+				"end": 859,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "bom estado geral",
+				"entity_tokens": [
+					"bom",
+					"estado",
+					"geral"
+				],
+				"label": "FINDING",
+				"start": 872,
+				"end": 888,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "densitometria óssea",
+				"entity_tokens": [
+					"densitometria",
+					"óssea"
+				],
+				"label": "PROCEDURE",
+				"start": 918,
+				"end": 937,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "40808122 - densitometria óssea (um segmento)",
+					"terminology": "BR_TUSS",
+					"term_code": "40808122",
+					"term_desc": "densitometria óssea (um segmento)"
+				}
+			},
+			{
+				"entity": "10/2020",
+				"entity_tokens": [
+					"10/2020"
+				],
+				"label": "TEMPORAL_CONCEPT",
+				"start": 940,
+				"end": 947,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "osteopenia",
+				"entity_tokens": [
+					"osteopenia"
+				],
+				"label": "DISEASE",
+				"start": 952,
+				"end": 962,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "M858 - outros transtornos especificados da densidade e da estrutura ósseas",
+					"terminology": "ICD10",
+					"term_code": "M858",
+					"term_desc": "outros transtornos especificados da densidade e da estrutura ósseas"
+				}
+			},
+			{
+				"entity": "coluna lombar",
+				"entity_tokens": [
+					"coluna",
+					"lombar"
+				],
+				"label": "BODY_PART",
+				"start": 965,
+				"end": 978,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "colo femoral",
+				"entity_tokens": [
+					"colo",
+					"femoral"
+				],
+				"label": "BODY_PART",
+				"start": 1000,
+				"end": 1012,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "fêmur",
+				"entity_tokens": [
+					"fêmur"
+				],
+				"label": "BODY_PART",
+				"start": 1034,
+				"end": 1039,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "beg",
+				"entity_tokens": [
+					"beg"
+				],
+				"label": "FINDING",
+				"start": 1078,
+				"end": 1081,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "lote",
+				"entity_tokens": [
+					"lote"
+				],
+				"label": "FINDING",
+				"start": 1084,
+				"end": 1088,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "ps 0",
+				"entity_tokens": [
+					"ps",
+					"0"
+				],
+				"label": "SCALE",
+				"start": 1091,
+				"end": 1095,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "bnf ar : ara",
+				"entity_tokens": [
+					"bnf",
+					"ar",
+					":",
+					"ara"
+				],
+				"label": "FINDING",
+				"start": 1111,
+				"end": 1123,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "mv+",
+				"entity_tokens": [
+					"mv+"
+				],
+				"label": "FINDING",
+				"start": 1126,
+				"end": 1129,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "eupneica",
+				"entity_tokens": [
+					"eupneica"
+				],
+				"label": "FINDING",
+				"start": 1132,
+				"end": 1140,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "normotenso",
+				"entity_tokens": [
+					"normotenso"
+				],
+				"label": "FINDING",
+				"start": 1146,
+				"end": 1156,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "indolor",
+				"entity_tokens": [
+					"indolor"
+				],
+				"label": "FINDING",
+				"start": 1159,
+				"end": 1166,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "massas",
+				"entity_tokens": [
+					"massas"
+				],
+				"label": "SYMPTOM",
+				"start": 1181,
+				"end": 1187,
+				"assertion": "AUSENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "visceromegalias",
+				"entity_tokens": [
+					"visceromegalias"
+				],
+				"label": "SYMPTOM",
+				"start": 1190,
+				"end": 1205,
+				"assertion": "AUSENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "mama e",
+				"entity_tokens": [
+					"mama",
+					"e"
+				],
+				"label": "BODY_PART",
+				"start": 1206,
+				"end": 1212,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "nódulo",
+				"entity_tokens": [
+					"nódulo"
+				],
+				"label": "SYMPTOM",
+				"start": 1215,
+				"end": 1221,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "1,0 x 1,0",
+				"entity_tokens": [
+					"1,0",
+					"x",
+					"1,0"
+				],
+				"label": "MORPHOLOGY",
+				"start": 1225,
+				"end": 1234,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "axilas",
+				"entity_tokens": [
+					"axilas"
+				],
+				"label": "BODY_PART",
+				"start": 1251,
+				"end": 1257,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "livres",
+				"entity_tokens": [
+					"livres"
+				],
+				"label": "FINDING",
+				"start": 1258,
+				"end": 1264,
+				"assertion": "",
+				"adverse_event": "",
+				"el": {
+					"term_text": "",
+					"terminology": "",
+					"term_code": "",
+					"term_desc": ""
+				}
+			},
+			{
+				"entity": "anastrozol",
+				"entity_tokens": [
+					"anastrozol"
+				],
+				"label": "PHARM_SUBSTANCE",
+				"start": 1283,
+				"end": 1293,
+				"assertion": "PRESENTE",
+				"adverse_event": "",
+				"el": {
+					"term_text": "L02BG03 - anastrozol. dosagem: 1,0 unidade: mg adm: o",
+					"terminology": "ATC",
+					"term_code": "L02BG03",
+					"term_desc": "anastrozol. dosagem: 1,0 unidade: mg adm: o"
+				}
+			}
+		],
+		"biomarkers": [
+			{
+				"entity": "rp pos ( 95",
+				"normalized_entity": "RP",
+				"specific_marker": "",
+				"loinc_code": "85339-0",
+				"result": {
+					"detection_status": "POS",
+					"numeric_value": 95.0,
+					"unit": ""
+				},
+				"start": 117,
+				"end": 128
+			},
+			{
+				"entity": "her2 negativo",
+				"normalized_entity": "HER2",
+				"specific_marker": "",
+				"loinc_code": "85319-2",
+				"result": {
+					"detection_status": "NEG",
+					"numeric_value": 1.0,
+					"unit": ""
+				},
+				"start": 133,
+				"end": 146
+			},
+			{
+				"entity": "ki6740",
+				"normalized_entity": "KI67",
+				"specific_marker": "",
+				"loinc_code": "",
+				"result": {
+					"detection_status": "",
+					"numeric_value": 40.0,
+					"unit": ""
+				},
+				"start": 147,
+				"end": 153
+			},
+			{
+				"entity": "re 100",
+				"normalized_entity": "RE",
+				"specific_marker": "",
+				"loinc_code": "85337-4",
+				"result": {
+					"detection_status": "",
+					"numeric_value": 100.0,
+					"unit": ""
+				},
+				"start": 406,
+				"end": 412
+			},
+			{
+				"entity": "rp 95",
+				"normalized_entity": "RP",
+				"specific_marker": "",
+				"loinc_code": "85339-0",
+				"result": {
+					"detection_status": "",
+					"numeric_value": 95.0,
+					"unit": ""
+				},
+				"start": 417,
+				"end": 422
+			},
+			{
+				"entity": "ki6740",
+				"normalized_entity": "KI67",
+				"specific_marker": "",
+				"loinc_code": "",
+				"result": {
+					"detection_status": "",
+					"numeric_value": 40.0,
+					"unit": ""
+				},
+				"start": 427,
+				"end": 433
+			},
+			{
+				"entity": "her2 neg",
+				"normalized_entity": "HER2",
+				"specific_marker": "",
+				"loinc_code": "85319-2",
+				"result": {
+					"detection_status": "NEG",
+					"numeric_value": 1.0,
+					"unit": ""
+				},
+				"start": 438,
+				"end": 446
+			}
+		],
+		"lab_tests": [],
+		"vital_signs": [],
+		"entities_relations": [
+			{
+				"relation_type": "disease_has_primary_anatomic_site",
+				"head_entity": "cdi",
+				"tail_entity": "mama e",
+				"head_start": 43,
+				"tail_start": 50
+			},
+			{
+				"relation_type": "is_date_of",
+				"head_entity": "2020",
+				"tail_entity": "ct2n0m0",
+				"head_start": 60,
+				"tail_start": 65
+			},
+			{
+				"relation_type": "is_qualifier_of",
+				"head_entity": "ct2n0m0",
+				"tail_entity": "cdi",
+				"head_start": 65,
+				"tail_start": 43
+			},
+			{
+				"relation_type": "procedure_has_target_anatomy",
+				"head_entity": "cec",
+				"tail_entity": "colo uterino",
+				"head_start": 156,
+				"tail_start": 163
+			},
+			{
+				"relation_type": "is_date_of",
+				"head_entity": "2016",
+				"tail_entity": "cec",
+				"head_start": 179,
+				"tail_start": 156
+			},
+			{
+				"relation_type": "may_treat",
+				"head_entity": "rt",
+				"tail_entity": "cdi",
+				"head_start": 238,
+				"tail_start": 43
+			},
+			{
+				"relation_type": "may_treat",
+				"head_entity": "qt",
+				"tail_entity": "cdi",
+				"head_start": 243,
+				"tail_start": 43
+			},
+			{
+				"relation_type": "is_date_of",
+				"head_entity": "até jun/16",
+				"tail_entity": "qt",
+				"head_start": 246,
+				"tail_start": 243
+			},
+			{
+				"relation_type": "is_date_of",
+				"head_entity": "09/20",
+				"tail_entity": "cirurgia",
+				"head_start": 357,
+				"tail_start": 346
+			},
+			{
+				"relation_type": "procedure_has_target_anatomy",
+				"head_entity": "biopsia",
+				"tail_entity": "mama",
+				"head_start": 365,
+				"tail_start": 383
+			},
+			{
+				"relation_type": "is_associated_anatomic_site_of",
+				"head_entity": "nódulo",
+				"tail_entity": "mama e",
+				"head_start": 376,
+				"tail_start": 383
+			},
+			{
+				"relation_type": "is_qualifier_of",
+				"head_entity": "g3",
+				"tail_entity": "cdi",
+				"head_start": 401,
+				"tail_start": 395
+			},
+			{
+				"relation_type": "procedure_has_target_anatomy",
+				"head_entity": "usg",
+				"tail_entity": "mama",
+				"head_start": 447,
+				"tail_start": 451
+			},
+			{
+				"relation_type": "is_date_of",
+				"head_entity": "08/2020",
+				"tail_entity": "usg",
+				"head_start": 458,
+				"tail_start": 447
+			},
+			{
+				"relation_type": "is_associated_anatomic_site_of",
+				"head_entity": "nódulo",
+				"tail_entity": "mama",
+				"head_start": 470,
+				"tail_start": 477
+			},
+			{
+				"relation_type": "is_qualifier_of",
+				"head_entity": "irregular",
+				"tail_entity": "nódulo",
+				"head_start": 486,
+				"tail_start": 470
+			},
+			{
+				"relation_type": "is_qualifier_of",
+				"head_entity": "margens anguladas",
+				"tail_entity": "nódulo",
+				"head_start": 499,
+				"tail_start": 470
+			},
+			{
+				"relation_type": "is_qualifier_of",
+				"head_entity": "1,4 x 1,3 x 1,2",
+				"tail_entity": "nódulo",
+				"head_start": 527,
+				"tail_start": 470
+			},
+			{
+				"relation_type": "is_date_of",
+				"head_entity": "08/2020",
+				"tail_entity": "mmg",
+				"head_start": 660,
+				"tail_start": 654
+			},
+			{
+				"relation_type": "is_qualifier_of",
+				"head_entity": "11 - 20 mm espiculado",
+				"tail_entity": "nódulo",
+				"head_start": 697,
+				"tail_start": 679
+			},
+			{
+				"relation_type": "is_qualifier_of",
+				"head_entity": "espiculado",
+				"tail_entity": "nódulo",
+				"head_start": 708,
+				"tail_start": 679
+			},
+			{
+				"relation_type": "is_qualifier_of",
+				"head_entity": "birads",
+				"tail_entity": "nódulo",
+				"head_start": 738,
+				"tail_start": 679
+			},
+			{
+				"relation_type": "may_treat",
+				"head_entity": "losartana",
+				"tail_entity": "has",
+				"head_start": 773,
+				"tail_start": 836
+			},
+			{
+				"relation_type": "may_treat",
+				"head_entity": "anlodipino",
+				"tail_entity": "has",
+				"head_start": 785,
+				"tail_start": 836
+			},
+			{
+				"relation_type": "may_treat",
+				"head_entity": "sinvastatina",
+				"tail_entity": "has",
+				"head_start": 798,
+				"tail_start": 836
+			},
+			{
+				"relation_type": "may_treat",
+				"head_entity": "cálcio + vitd",
+				"tail_entity": "has",
+				"head_start": 813,
+				"tail_start": 836
+			},
+			{
+				"relation_type": "is_date_of",
+				"head_entity": "10/2020",
+				"tail_entity": "densitometria óssea",
+				"head_start": 940,
+				"tail_start": 918
+			},
+			{
+				"relation_type": "is_associated_anatomic_site_of",
+				"head_entity": "visceromegalias",
+				"tail_entity": "mama e",
+				"head_start": 1190,
+				"tail_start": 1206
+			},
+			{
+				"relation_type": "is_associated_anatomic_site_of",
+				"head_entity": "nódulo",
+				"tail_entity": "mama e",
+				"head_start": 1215,
+				"tail_start": 1206
+			},
+			{
+				"relation_type": "is_qualifier_of",
+				"head_entity": "1,0 x 1,0 cm",
+				"tail_entity": "nódulo",
+				"head_start": 1225,
+				"tail_start": 1215
+			},
+			{
+				"relation_type": "is_associated_anatomic_site_of",
+				"head_entity": "livres",
+				"tail_entity": "axilas",
+				"head_start": 1258,
+				"tail_start": 1251
+			}
+		]
+	}
+]
