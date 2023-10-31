@@ -1,10 +1,10 @@
 name: Release
-on:
-  push:
-
 #on:
-#  release:
-#    types: [published]
+#  push:
+
+on:
+  release:
+    types: [published]
 
 jobs:
   pypi-publish:
@@ -18,11 +18,14 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v3
-#    - name: Get tag
-#      id: get-tag
-#      run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
-
-      - run: python3 -m pip install --upgrade build && pwd && ls -la && python3 -m build
-
-      - name: Publish package distributions to PyPI
-        uses: pypa/gh-action-pypi-publish@release/v1
+      - name: Get tag
+        id: get-tag
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+      - name: Test
+        run: |
+          echo $RELEASE_VERSION
+          echo ${{ env.RELEASE_VERSION }}
+#      - run: python3 -m pip install --upgrade build && python3 -m build
+#
+#      - name: Publish package distributions to PyPI
+#        uses: pypa/gh-action-pypi-publish@release/v1
