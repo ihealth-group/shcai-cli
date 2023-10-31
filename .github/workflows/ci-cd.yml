@@ -17,11 +17,12 @@ jobs:
     permissions:
       id-token: write
     steps:
-    - name: Get tag
-      id: get-tag
-      run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
+#    - name: Get tag
+#      id: get-tag
+#      run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
 
-    - run: python3 -m pip install --upgrade build && python3 -m build
+    - run: \
+        python3 -m pip install --upgrade build && pwd && python3 -m build
 
     - name: Publish package distributions to PyPI
       uses: pypa/gh-action-pypi-publish@release/v1
