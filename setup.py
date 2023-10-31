@@ -1,11 +1,12 @@
 from setuptools import setup, find_packages
+import os
 
 with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
     name="shcaicli",
-    version="0.0.1",
+    version=os.getenv("RELEASE_VERSION"),
     author="iHealth Group",
     author_email="rafael.morais@ihealthgroup.com.br",
     description="SHC.Ai Cli",
