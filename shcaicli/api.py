@@ -3,15 +3,10 @@ import requests
 import json
 
 
-def _shc_infer_content_gen(json_str: str):
-  cn_content = json.loads(json_str)
-  yield cn_content
-
-
 class SHCAi:
   def __init__(self,
                api_root: str = 'https://apim.ihealthgroup.tec.br/api',
-               api_name: str = 'shc-mtask',
+               api_name: str = 'shc-mtask?output_type=tokens',
                api_version: str = 'v1',
                api_key: str = None
                ):
@@ -34,6 +29,6 @@ class SHCAi:
     }
     response = requests.post(url, json=data, headers=headers)
     if response.status_code == 200:
-      return _shc_infer_content_gen(response.text)
+      return json.loads(response.text)
     else:
       raise SHCAIException(f'Request failed with status code {response.status_code}. Response: {response.text}')
