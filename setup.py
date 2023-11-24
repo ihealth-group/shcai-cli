@@ -22,7 +22,6 @@ setup(
     packages=find_packages(),
     python_requires=">=3.8",
     install_requires=[
-        "antlr4-python3-runtime==4.13.1",
         "requests==2.31.0"
     ],
 )
