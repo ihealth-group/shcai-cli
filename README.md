@@ -5,7 +5,7 @@
 
 ### Instalação
 
-Para instalar o SHCAi client: `pip install shcaicli`
+Para instalar o SHCAi client: `pip install -U shcaicli`
 
 ### Uso
 
@@ -14,7 +14,7 @@ from shcaicli.api import SHCAi
 import os
 
 api_key = os.getenv('API_KEY')
-shc = SHCAi(api_key=api_key)
+shc = SHCAi(api_key=api_key, tokens_mode=True)
 
 cn = 'Paciente diagnosticado com has, nega dm. Em 20/09 iniciou QT para tratamento CA de mama'
 cn_inferred = shc.infer(cn=cn)
