@@ -17,9 +17,9 @@ class SHCAi:
     self.api_version = api_version
     self.api_key = api_key
 
-  def infer(self, cn: str = None):
-    if cn is None or cn.strip() == '':
-      raise ValueError('invalid value for cn parameter')
+  def infer(self, cns: [] = None):
+    if cns is None or len(cns) == 0:
+      raise ValueError('invalid value for cns parameter')
 
     headers = {
       'Content-Type': 'application/json',
@@ -27,9 +27,9 @@ class SHCAi:
     }
     url = f'{self._api_root}/{self._api_name}'
     data = {
-      'text': cn
+      'cns': cns
     }
-    response = requests.post(url, json=data, headers=headers)
+    response = requests.post(url, json=data, headers=headers, timeout=30)
     if response.status_code == 200:
       return json.loads(response.text)
     else:
